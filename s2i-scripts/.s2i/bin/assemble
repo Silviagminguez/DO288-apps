@@ -14,7 +14,7 @@ echo "---> Installing application source"
 cp -Rf /tmp/src/*.html ./info.html
 
 echo "---> Creating info page"
-echo "$(date +%Y+%m+%d)" >> ./info.html
+echo "$(date +%Y-%m-%d)" >> ./info.html
 echo "Frasecita en latin" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
