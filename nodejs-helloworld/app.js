@@ -3,6 +3,7 @@ app = express();
 
 app.get('/', function (req, res) {
   res.send('Hello World! El mensaje es $APP_MSG\n');
+  console.log('El mensaje es $APP_MSG');
 });
 
 app.listen(8080, function () {
